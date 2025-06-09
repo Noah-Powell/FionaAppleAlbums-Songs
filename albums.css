@@ -47,6 +47,9 @@ body {
 }
 
 .dropdown {
+    /*ChatGPT helped with using position:, left:, transform:
+    Position: absolute makes sure the dropdown doesn't change the formatting of the stuff above
+    left and transform helps adjust the horizontal alignment to keep the dropdown centered*/
     position: absolute;
     left: 47%;
     transform: translateX(-50%);
