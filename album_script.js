@@ -78,7 +78,7 @@
                 {
                     feedback.innerHTML = `Album: ${albums_songs[input2]}`;
                     let album_name = albums_songs[input2] + "_details.html";
-                    //AI helped with using setAttribute and syntax for this line
+                    //ChatGPT helped with using setAttribute and syntax for this line so that the link to the new page can be set to whatever album is
                     document.getElementById("details").setAttribute("href", album_name)
                     document.getElementById("details").style.display = "block";
                 }
@@ -100,7 +100,7 @@
                                 }
                             }
                             if (tally >= input2.length - 2) {
-                                //AI helped with proper syntax for tally and found
+                                //ChatGPT helped with proper syntax and initialization for tally and found
                                 tally = 0;
                                 found = true;
                                 //AI helped with syntax for changing feedback to the album title
