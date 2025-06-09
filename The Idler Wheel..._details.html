@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>The Idler Wheel</title>
+        <link rel="stylesheet" href="albums.css">
+    </head>
+    <body>
+        <h1 class="heading">The Idler Wheel...</h1>
+        <hr>
+        <h3 class="info">June 19th, 2012</h3>
+        <hr>
+
+
+       <div class="image_title">
+            <img src="the_idler_wheel.jpg" class="image" width="200">
+                <h3>
+                    <button id="drop" class="name">Full Album Title</button>
+                    <!--AI helped with white-space: pre-wrap syntax-->
+                    <div id="dropdown" class="dropdown" style="display: none; white-space: pre-wrap;">
+                        The Idler Wheel Is Wiser Than the Driver of The Screw and
+                        Whipping Cords Will Serve You More Than Ropes Will Ever Do
+                    </div>
+                </h3>
+
+                <h3>
+                <button id="highlights" class="highlights">Highlights</button>
+                <div id="songs" class="dropdown" style="display: none; white-space: pre-wrap;">
+                    Song Highlights:
+
+                    1. Every Single Night
+                    2. Valentine
+                    3. Periphery
+                    4. Hot Knife
+                </div>
+            </h3>
+        </div>
+    </body>
+
+
+    <script>
+        let button = document.getElementById("drop");
+        button.addEventListener("click", function() {
+            document.getElementById("dropdown").style.display = "none"
+            document.getElementById("songs").style.display = "none"
+            if (document.getElementById("dropdown").style.display === "none")
+            {
+                document.getElementById("dropdown").style.display = "block";
+            }
+            else {
+                document.getElementById("dropdown").style.display = "none";
+            }
+        });
+
+
+        let highlights = document.getElementById("highlights");
+        highlights.addEventListener("click", function() {
+            document.getElementById("dropdown").style.display = "none"
+            document.getElementById("songs").style.display = "none"
+            if (document.getElementById("songs").style.display === "none")
+            {
+                document.getElementById("songs").style.display = "block";
+            }
+            else {
+                document.getElementById("songs").style.display = "none";
+            }
+        })
+    </script>
+
+
+</html>

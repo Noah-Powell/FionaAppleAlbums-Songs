@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>When the Pawn</title>
+        <link rel="stylesheet" href="albums.css">
+    </head>
+    <body>
+        <h1 class="heading">When the Pawn...</h1>
+        <h3 class="info">November 9th, 1999</h3>
+        <hr>
+        <div class="image_title">
+            <img src ="when_the_pawn.jpg" class="image" width="200">
+            <h3>
+                <button id="drop" class="name">Full Album Title</button>
+                <!--AI helped with white-space: pre-wrap syntax-->
+                <div id="dropdown" class="dropdown" style="display: none; white-space: pre-wrap;">
+                    When the pawn hits the conflicts he thinks like a king
+                    What he knows throws the blows when he goes to the fight
+                    And he'll win the whole thing 'fore he enters the ring
+                    There's nobody to batter when your mind is your might
+                    So when you go solo you hold your own hand
+                    And remember that depth is the greatest of heights
+                    And if you know where you stand then you know where to land
+                    And if you fall it won't matter 'cause you'll know that you're right
+                </div>
+            </h3>
+
+            <h3>
+                <button id="highlights" class="highlights">Highlights</button>
+                <div id="songs" class="dropdown" style="display: none; white-space: pre-wrap;">
+                    Song Highlights:
+
+                    1. Limp
+                    2. Paper Bag
+                    3. Fast As You Can
+                    4. I Know
+                </div>
+            </h3>
+        </div>
+    </body>
+
+
+    <script>
+        let button = document.getElementById("drop");
+        button.addEventListener("click", function() {
+            document.getElementById("dropdown").style.display = "none"
+            document.getElementById("songs").style.display = "none"
+            if (document.getElementById("dropdown").style.display === "none")
+            {
+                document.getElementById("dropdown").style.display = "block";
+            }
+            else {
+                document.getElementById("dropdown").style.display = "none";
+            }
+        });
+
+        let highlights = document.getElementById("highlights");
+        highlights.addEventListener("click", function() {
+            document.getElementById("dropdown").style.display = "none"
+            document.getElementById("songs").style.display = "none"
+            if (document.getElementById("songs").style.display === "none")
+            {
+                document.getElementById("songs").style.display = "block";
+            }
+            else {
+                document.getElementById("songs").style.display = "none";
+            }
+        })
+    </script>
+
+
+</html>

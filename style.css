@@ -1,0 +1,38 @@
+body {
+
+    background-image: url('apple_outline.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #E53333;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.option_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.title {
+    color: #E53333;
+}
+
+.options {
+    background-image: url('apple.jpg');
+    background-size: cover;
+    width: 175px;
+    height: 175px;
+    border: none;
+    border-radius: 50%;
+    font-family: Times New Roman, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Fiona Apple Songs & Albums</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="song">
+            <h1 class="title">Find Fiona Apple Songs and Albums Here!</h1>
+            <hr>
+            <div class="option_container">
+                <button class="options" id="album_finder">Album Finder</button>
+                <button class="options" id="song_finder">Song Finder</button>
+            </div>
+
+            <script>
+                let album_finder = document.getElementById("album_finder");
+                let song_finder = document.getElementById("song_finder");
+                album_finder.addEventListener("click", function() {
+                    window.location.href = "album_finder.html";
+                });
+                song_finder.addEventListener("click", function() {
+                    window.location.href = "song_finder.html";
+                });
+            </script>
+        </body>
+
+    </html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Extraordinary Machine</title>
+        <link rel="stylesheet" href="albums.css">
+    </head>
+    <body>
+        <h1 class="heading">Extraordinary Machine</h1>
+        <hr>
+        <h3 class="info">October 4th, 2005</h3>
+        <hr>
+
+        <div class="image_title">
+            <img src="extraordinary_machine.jpg" class="image" width="200">
+                <h3>
+                    <button id="drop" class="name">Full Album Title</button>
+                    <!--AI helped with white-space: pre-wrap to format album title-->
+                    <div id="dropdown" class="dropdown" style="display: none; white-space: pre-wrap;">
+                    Extaordinary Machine
+                    </div>
+                </h3>
+
+                <h3>
+                <button id="highlights" class="highlights">Highlights</button>
+                <div id="songs" class="dropdown" style="display: none; white-space: pre-wrap;">
+                    Song Highlights:
+
+                    1. O'Sailor
+                    2. Parting Gift
+                    3. Oh Well
+                    4. Not About Love
+                </div>
+            </h3>
+        </div>
+
+    </body>
+
+
+    <script>
+        let button = document.getElementById("drop");
+        button.addEventListener("click", function() {
+            document.getElementById("dropdown").style.display = "none"
+            document.getElementById("songs").style.display = "none"
+            if (document.getElementById("dropdown").style.display === "none")
+            {
+                document.getElementById("dropdown").style.display = "block";
+            }
+            else {
+                document.getElementById("dropdown").style.display = "none";
+            }
+        });
+
+
+        let highlights = document.getElementById("highlights");
+        highlights.addEventListener("click", function() {
+            document.getElementById("dropdown").style.display = "none"
+            document.getElementById("songs").style.display = "none"
+            if (document.getElementById("songs").style.display === "none")
+            {
+                document.getElementById("songs").style.display = "block";
+            }
+            else {
+                document.getElementById("songs").style.display = "none";
+            }
+        })
+    </script>
+
+
+</html>

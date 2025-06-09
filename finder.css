@@ -1,0 +1,99 @@
+body {
+    background-color: #E7E3E8;
+}
+
+.song_button {
+    width: 250px;
+    height: 250px;
+    /*Duck helped with using padding*/
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #CDBDD0;
+    font-family: Times New Roman, sans-serif;
+    border: 5px solid #AA97AE;
+}
+
+.feedback {
+
+    font-family: Times New Roman, sans-serif;
+    font-size: 40px;
+    color: #4B384F;
+}
+
+.header {
+
+    font-family: Times New Roman, sans-serif;
+    font-size: 60px;
+    color: #4B384F;
+}
+
+
+.description {
+    font-family: Times New Roman, sans-serif;
+    font-size: 38px;
+    color: #4B384F;
+}
+
+.container {
+    display: flex;
+    /* AI helped with flex-direction and justify-content to help format page */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* AI helped setting max width to prevent formatting issues when feedback and details are displayed */
+    text-align: center;
+    max-width: 1600px;
+    width: 100%;
+}
+
+#input {
+    width: 160px;
+    height: 25px;
+    background-color: #CDBDD0;
+    border: 5px solid #AA97AE;
+    font-family: Times New Roman, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+#button {
+    width: 80px;
+    height: 40px;
+    background-color: #AA97AE;
+    font-family: Times New Roman, sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+#feedback {
+    font-family: Times New Roman, sans-serif;
+    font-size: 34px;
+    color: #4B384F;
+}
+
+
+#details {
+    font-family: Times New Roman, sans-serif;
+    font-size: 34px;
+    color: #4B384F;
+}

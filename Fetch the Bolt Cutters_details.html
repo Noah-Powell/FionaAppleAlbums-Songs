@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Fetch the Bolt Cutters</title>
+        <link rel="stylesheet" href="albums.css">
+    </head>
+
+    <body>
+        <h1 class="heading">Fetch the Bolt Cutters</h1>
+        <h3 class="info">April 17th, 2020</h3>
+        <hr>
+
+        <div class="image_title">
+            <img src="fetch_the_bolt_cutters.jpg" class="image" width="200">
+                <h3>
+                    <button id="drop" class="name">Full Album Title</button>
+                    <!--AI helped with white-space: pre-wrap syntax-->
+                    <div id="dropdown" class="dropdown" style="display: none; white-space: pre-wrap;">
+                    Fetch The Bolt Cutters
+                    </div>
+                </h3>
+
+                <h3>
+                <button id="highlights" class="highlights">Highlights</button>
+                <div id="songs" class="dropdown" style="display: none; white-space: pre-wrap;">
+                    Song Highlights:
+
+                    1. I Want You To Love Me
+                    2. Shameika
+                    3. Ladies
+                    4. Cosmonauts
+                </div>
+            </h3>
+        </div>
+    </body>
+
+
+    <script>
+        let button = document.getElementById("drop");
+        button.addEventListener("click", function() {
+            document.getElementById("dropdown").style.display = "none"
+            document.getElementById("songs").style.display = "none"
+            if (document.getElementById("dropdown").style.display === "none")
+            {
+                document.getElementById("dropdown").style.display = "block";
+            }
+            else {
+                document.getElementById("dropdown").style.display = "none";
+            }
+        });
+
+        let highlights = document.getElementById("highlights");
+        highlights.addEventListener("click", function() {
+            document.getElementById("dropdown").style.display = "none"
+            document.getElementById("songs").style.display = "none"
+            if (document.getElementById("songs").style.display === "none")
+            {
+                document.getElementById("songs").style.display = "block";
+            }
+            else {
+                document.getElementById("songs").style.display = "none";
+            }
+        })
+    </script>
+
+
+</html>
