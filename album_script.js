@@ -103,7 +103,7 @@
                                 //ChatGPT helped with proper syntax and initialization for tally and found
                                 tally = 0;
                                 found = true;
-                                //AI helped with syntax for changing feedback to the album title
+                                //ChatGPT helped with syntax for changing feedback to the album title
                                 feedback.innerHTML = albums_songs[song];
                                 let album_name = albums_songs[song] + "_details.html";
                                 document.getElementById("details").setAttribute("href", album_name)
