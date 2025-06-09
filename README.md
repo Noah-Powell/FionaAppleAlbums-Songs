@@ -19,5 +19,7 @@
 
 ## Installation
 
+## Credits
+
 ## Screenshots & Demonstration
 ![screenshots](images)
