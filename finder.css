@@ -37,7 +37,7 @@ body {
 
 .container {
     display: flex;
-    /* AI helped with flex-direction and justify-content to help format page */
+    /* ChatGPT helped with flex-direction and justify-content to help format page vertically */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    /* AI helped setting max width to prevent formatting issues when feedback and details are displayed */
+    /* ChatGPT helped setting max width to prevent formatting issues when feedback and details are displayed */
     text-align: center;
     max-width: 1600px;
     width: 100%;
