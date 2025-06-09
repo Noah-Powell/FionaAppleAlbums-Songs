@@ -72,13 +72,13 @@ let songs = {
         button1.addEventListener("click", function() {
             list.innerHTML = ""
             //Change the object to an array
-            //AI helped with this syntax
+            //ChatGPT helped with this syntax
             let melodic_songs = Object.entries(songs);
             //Find all of the keys with the Melodic value
-            //AI helped with syntax
+            //ChatGPT helped with syntax and logic
             let melodic2 = melodic_songs.filter(([key, value]) => value === "Melodic");
             //Keep only the keys
-            //AI helped with syntax
+            //ChatGPT helped with syntax
             let melodic3 = melodic2.map(([key]) => key);
             //Randomly sort the array of songs
             //Duck helped with randomzing syntax
