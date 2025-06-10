@@ -15,18 +15,26 @@
 - Fetch The Bolt Cutters_details.html --> file that contains information about the album (release date, full title, and highlights) in the form of words and buttons/dropdowns
 - finder.css --> file that styles both the album finder and song finder pages with CSS
 - index.html --> file that has the "homepage" with buttons where the user can select the program they would like to use
-- song_finder.html --> file that contains buttons for the user to click based on what type of sonf they want to hear
+- song_finder.html --> file that contains buttons for the user to click based on what type of song they want to hear
 - song_finder.js --> file contains an object(list) with songs(keys) and their tone/mood(values), file contains event listeners for button clicks, displays a randomized 4 songs that match the mood of whatever the user selects
 - style.css --> file contians styling for the "homepage", includes background image, border, button styling (apple icon)
 - The Idler Wheel..._details.html --> file that contains information about the album (release date, full title, and highlights) in the form of words and buttons/dropdowns
 - Tidal_details.html --> file that contains information about the album (release date, full title, and highlights) in the form of words and buttons/dropdowns
 - When the Pawn.._details.html --> file that contains information about the album (release date, full title, and highlights) in the form of words and buttons/dropdowns
 
-## Installation/Instructions
+## Instructions
+Video Link: https://youtu.be/XzvHAqxyqnI
+- The user can select either Album Finder or Song Finder
+- The user can input(type) into the album finder search a Fiona Apple song to find out what album that song is from
+- The user can click on the details page link that pops up to learn more about the album that their inputted song is from
+- The user can select Song Finder and select the type of son they want to listen to
+- If the user wants more song recommendations, they can re-click the button to get new song recommendations
+- If the user wants a different type of song recommendation than originally selected, all they have to do is select a new button
 
 ## Credits
 - CS50 AI Duck helped with syntax, logic, and formatting
 - ChatGPT helped with syntax, logic, and formatting
 
-## Screenshots & Demonstration
+## Screenshots & Demonstration Video
 ![screenshots](images)
+
