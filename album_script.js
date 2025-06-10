@@ -76,7 +76,7 @@
 
                 if (input2 in albums_songs)
                 {
-                    feedback.innerHTML = `Album: ${albums_songs[input2]}`;
+                    feedback.innerHTML = albums_songs[input2];
                     let album_name = albums_songs[input2] + "_details.html";
                     //ChatGPT helped with using setAttribute and syntax for this line so that the link to the new page can be set to whatever album is
                     document.getElementById("details").setAttribute("href", album_name)
