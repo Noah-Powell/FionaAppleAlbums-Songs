@@ -23,8 +23,8 @@
 - When the Pawn.._details.html --> file that contains information about the album (release date, full title, and highlights) in the form of words and buttons/dropdowns
 
 ## Instructions
-Video Link: https://youtu.be/XzvHAqxyqnI
-Live Website Link: https://noah-powell.github.io/FionaAppleAlbums-Songs/?authuser=1
+- Video Link: https://youtu.be/XzvHAqxyqnI
+- Live Website Link: https://noah-powell.github.io/FionaAppleAlbums-Songs/?authuser=1
 - The user can select either Album Finder or Song Finder
 - The user can input(type) into the Album Finder search bar a Fiona Apple song to find out what album that song is from
 - The user can click on the details page link that pops up to learn more about the album that their inputted song is from
