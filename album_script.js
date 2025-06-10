@@ -104,7 +104,7 @@
                                 tally = 0;
                                 found = true;
                                 //ChatGPT helped with syntax for changing feedback to the album title
-                                feedback.innerHTML = `Album: ${albums_songs[input2]}`;
+                                feedback.innerHTML = `Album: ${albums_songs[song]}`;
                                 let album_name = albums_songs[song] + "_details.html";
                                 document.getElementById("details").setAttribute("href", album_name)
                                 document.getElementById("details").style.display = "block";
