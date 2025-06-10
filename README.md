@@ -3,7 +3,7 @@
 ## Purpose & Features
 - FionaAppleAlbums-Songs
 - It is designed to help you find albums based on your song search, give you album details, and give song recomendations based on your mood.
-- It has an album finding feature, finds what album your favorite Fiona Apple song is from
+- It has an album finding feature, it finds what album your favorite Fiona Apple song is from
 - It gives you a link to an information page about the album that provides the release date, full album title, and highlights (popular songs) from the album
 - It has a song finding feature that gives you song recomendations based on your mood/feeling you are after. It gives you 4 song recomendations when you click on your mood, and if you aren't happy with the songs that were recomended, you can click the same button again to find 4 other songs that fit your selected mood.
 
@@ -25,16 +25,29 @@
 ## Instructions
 Video Link: https://youtu.be/XzvHAqxyqnI
 - The user can select either Album Finder or Song Finder
-- The user can input(type) into the album finder search a Fiona Apple song to find out what album that song is from
+- The user can input(type) into the Album Finder search bar a Fiona Apple song to find out what album that song is from
 - The user can click on the details page link that pops up to learn more about the album that their inputted song is from
 - The user can select Song Finder and select the type of son they want to listen to
 - If the user wants more song recommendations, they can re-click the button to get new song recommendations
 - If the user wants a different type of song recommendation than originally selected, all they have to do is select a new button
 
 ## Credits
-- CS50 AI Duck helped with syntax, logic, and formatting
-- ChatGPT helped with syntax, logic, and formatting
+- CS50 AI Duck helped with logic issue setting href to # so that it can be changed later, that way the link to the album details page changes depending on the album
+- CS50 AI Duck helped with syntax for randomizing the order of the array
+- CS50 AI Duck helped with slice syntax for taking the first 4 songs of an array
+- CS50 AI Duck helped with using padding, suggested to make sure that formatting elements have enough space around them
+- CS50 AI Duck helped explain creating list and list elements to create a new lsit of only 4 songs
+- ChatGPT helped setting max width to prevent formatting issues when feedback and details are displayed
+- ChatGPT helped with using setAttribute so that the link to the new page can be set to whatever album is, basically updates the link to be accurate
+- ChatGPT helped with logic issues proper placement of variables found and tally so that they would be accurate
+- ChatGPT helped with syntax for changing the value of variables
+- ChatGPT helped with using position:, left:, transform: --- Position: absolute makes sure the dropdown doesn't change the formatting of the stuff above
+  left and transform helps adjust the horizontal alignment to keep the dropdown centered
+- ChatGPT helped with using white-space: pre-wrap to format the album title when the dropdown was clicked so that it was a paragraph and spaced properly
+- ChatGPT helped with flex-direction and justify-content to help format page vertically
+- ChatGPT helped with this syntax for turning an object into an array
+- ChatGPT helped with syntax and logic for seperating keys and values
 
-## Screenshots & Demonstration Video
+## Screenshots
 ![screenshots](images)
 
