@@ -1,5 +1,5 @@
 # FionaAppleAlbums-Songs
-
+- A place to find albums, songs, and information about Fiona Apple's music!
 ## Purpose & Features
 - FionaAppleAlbums-Songs
 - It is designed to help you find albums based on your song search, give you album details, and give song recomendations based on your mood.
